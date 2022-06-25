@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+ @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 * {
@@ -36,6 +36,7 @@ p {
   box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.7);
   background-color: rgb(22, 147, 163);
   border: 2px solid #000;
+  border-radius: 10px;
   padding: 30px;
   width: 650px;
   max-width: 100%;
@@ -45,6 +46,10 @@ p {
 .container .text {
   display: flex;
   flex-wrap: wrap;
+}
+
+.success {
+  color: rgb(17, 245, 17);
 }
 
 .container input {
@@ -60,6 +65,7 @@ p {
   color: #fff;
   font-size: 16px;
   padding: 12px 15px;
+  border-radius: 10px;
 }
 
 .wpm {
@@ -70,7 +76,7 @@ p {
 }
 
 .green {
-  color: green;
+  color: rgb(89, 232, 89);
 }
 
 .red {
@@ -104,14 +110,13 @@ p {
   .wpm {
     display: none;
   }
-  .success {
-    color: green;
-  }
+ 
 }
 .box {
   box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.7);
   background-color: rgb(191, 211, 155);
   border: 2px solid red;
+  border-radius: 10px;
   padding: 80px;
   width: 200px;
   max-width: 100%;
@@ -121,6 +126,7 @@ p {
 .btn {
   border: 0;
   background-color: rgb(108, 221, 55);
+  border-radius: 10px;
   color: solid black;
   font-size: 16px;
   width: 105px;
@@ -128,7 +134,7 @@ p {
   margin-bottom: 5px;
 }
 .name {
-  color: rgb(143, 18, 122);
+  color: rgb(121, 9, 102);
 }
 .type {
   color: whitesmoke;
