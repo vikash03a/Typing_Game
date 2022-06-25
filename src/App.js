@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+ import React, { Component } from "react";
 import "./styles.css";
 
 class App extends Component {
@@ -117,7 +117,7 @@ class App extends Component {
             Typing game to see how fast you type.Timer starts when you do :)
           </p>
           <div className="box">
-            <h2>Q</h2>
+            <h2>V</h2>
           </div>
           <div>
             <h4>Time 0.000s</h4>
@@ -125,13 +125,14 @@ class App extends Component {
           <div>
             <p>My Best Time 1.20s!</p>
           </div>
-          <div>
-            <button className="btn">Reset</button>
-          </div>
-
           <button className="start-btn" onClick={this.startGame}>
             Start game
           </button>
+          <br />
+          
+          <div>
+            <button className="btn">Reset</button>
+          </div>
           <p className="name">
             <i>Developed By Vikash</i>
           </p>
